@@ -95,7 +95,7 @@ function App() {
         <Route path="/auth/verify-otp/:id/:token" element={<OTP />} />
         <Route path="/auth/reset-password/:id/:token" element={<ChangePassword />} />
         <Route path="*" element={<Navigate to="/dashboard/home" replace />} />
-        <Route path="/invite/:token" element={<Invite />} />
+        <Route path="/auth/invite/:token" element={<Invite/>} />
       </Routes>
     </>
   );
