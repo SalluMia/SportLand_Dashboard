@@ -6,12 +6,6 @@ import Layout from "./layouts/Layout";
 import { Home, Notifications, Profile, Tables } from "./pages/dashboard";
 import { UserTable } from "./pages/dashboard/Users";
 import { PrivateRoutes } from "./components/privateRoutes.js";
-import { InstructorTable } from "./pages/dashboard/instructor/tables";
-import AddInstructor from "./pages/dashboard/instructor/addInstructor";
-import EditInstructor from "./pages/dashboard/instructor/editInstructor";
-import { SessionTable } from "./pages/dashboard/sessions/tables";
-import AddSession from "./pages/dashboard/sessions/addSession";
-import EditSession from "./pages/dashboard/sessions/editSession";
 import { UserSupportTable } from "./pages/dashboard/userSupport";
 import { CoachesTable } from "./pages/dashboard/coaches/tables";
 import AddCoaches from "./pages/dashboard/coaches/addCoaches";
@@ -20,8 +14,8 @@ import AddGym from "./pages/dashboard/gym/addGym";
 import AddActivities from "./pages/dashboard/activities/addActivities";
 import { ActivitiesTable } from "./pages/dashboard/activities/tables";
 import EditCoach from "./pages/dashboard/coaches/editCoaches";
-import Invite from "./pages/dashboard/invitePage/invite";
 import GymsPaneltable from "./pages/gympanel/gyms/GymsPaneltable";
+import Invite from "./pages/dashboard/invitePage/Invite";
 
 function App() {
   const [userRole, setUserRole] = useState(null);
